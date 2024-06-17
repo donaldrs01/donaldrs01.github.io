@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro"
+}
+
+/* Header */
+#hero-header-wrapper {
+    background-image: url(/images/background.png);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+#navigation-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#logo-link {
+    padding-left: 6%;
+}
+
+#menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    padding-right: 10%;
+}
+
+a.menu-link {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: .05em; 
+}
+
+#hero-section {
+    width: 100%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#banner {
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+#banner-heading {
+    font-size: 36px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: .3rem;
+}
+
+#banner-subheading {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: .3rem;
+}
+
+#action-button {
+    border-radius: 22px;
+    background-color: #FF6565;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: none;
+}
+
+#banner-main-text {
+    width: 90%;
+    color: #FFFFFF;
+    margin-top: 3rem;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+#what-we-do {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#text-container {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#what-we-do-heading {
+    color: #071629;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+#what-we-do-subheading {
+    color: #071629;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#what-we-do-bottom {
+    width: 72%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5%;;
+}
+
+.lorem-ipsum-container {
+    margin-top: 5%;
+    width: 20%;
+    height: 10%;
+    text-align: center;
+}
+
+.gylph-image {
+
+}
+
+.ipsum-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ipsum-description {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5;;
+}
+
+#results-section {
+    background-image: url(/images/background2.png);
+    background-size: cover;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 8%;
+}
+
+#results-text-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 8%;
+}
+
+#results-heading {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#results-subheading {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#results-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+
+.pentagon-container {
+    position: relative;
+}
+
+.pentagon {
+    position: relative;
+}
+
+.pentagon-image {
+    width: 80%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 60%; 
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.pentagon-heading {
+    font-size: 46px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 1.25rem;
+}
+
+.pentagon-subheading {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    position: relative;
+    top: -1rem;
+}
+
+#contact-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;   
+}
+
+#form-container {
+    padding-top: 8%;    
+    width: 25%;
+}
+
+#form-header {
+    font-size: 32px;
+    font-weight: 600;
+    color: #071629;
+    text-align: center;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #071629;
+}
+
+.form-group input {
+    border: none;
+    box-sizing: none;
+    border-bottom: 1px solid #979797;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+
+#submit-button {
+    border-radius: 22px;
+    background-color: #FF6565;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: none;
+    width: 50%;
+}
+
+#footer-section {
+    background-image: url(/images/footer_background.png);
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+#footer-container {
+    display: flex;
+    padding-top: 5%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-logo {
+    margin-left: 12%;
+}
+
+#footer-logo-img {
+    max-width: 65%;
+}
+
+#social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-right: 12%;
+}
+
+#copyright-text {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    margin-top: 4%;
+}
+
+.holberton_school-icon-ic_sound,
+.holberton_school-icon-ic_video,
+.holberton_school-icon-ic_music,
+.holberton_school-icon-ic_hearing {
+    font-size: 90px;
+    color: #FF6565;
+}
