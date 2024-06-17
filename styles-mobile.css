@@ -231,7 +231,7 @@ a.menu-link {
 
 .pentagon {
     position: relative;
-    margin-left: 100px;
+    margin-left: 90px;
 }
 
 .pentagon-image {
@@ -244,7 +244,7 @@ a.menu-link {
 .text-overlay {
     position: absolute;
     top: 60%; 
-    left: 30%;
+    left: 32%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -254,16 +254,17 @@ a.menu-link {
     font-weight: 700;
     color: #FFFFFF;
     margin-top: 1.25rem;
+    margin-left: 15%;
 }
 
 .pentagon-subheading {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
-    width: 90%;
+    width: 100%;
     color: #FFFFFF;
     position: relative;
     top: -1rem;
-    margin-left: 5%;
+    margin-left: 15%;
 }
 
 #contact-us {
@@ -363,7 +364,7 @@ a.menu-link {
     font-weight: 400;
     color: rgba(255, 255, 255, 0.4);
     text-align: center;
-    margin-top: 4%;
+    margin-top: 10%%;
 }
 
 .holberton_school-icon-ic_sound,
