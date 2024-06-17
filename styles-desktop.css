@@ -345,3 +345,7 @@ a.menu-link {
     font-size: 90px;
     color: #FF6565;
 }
+
+#hamburger-menu {
+    display: none;
+}
