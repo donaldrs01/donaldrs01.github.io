@@ -186,8 +186,8 @@ a.menu-link {
 
 #results-section {
     background-image: url(/images/background2.png);
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -229,7 +229,7 @@ a.menu-link {
 
 .pentagon-container {
     position: relative;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 .pentagon {
