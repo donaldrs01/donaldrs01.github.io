@@ -4,61 +4,44 @@ body {
     font-family: "Source Sans Pro"
 }
 
-
 /* Header */
 #banner-container {
-    display: flex;
-    flex-direction: column;
     background-image: url(/images/background.png);
     background-size: cover;
     background-position: center;
-    width: auto;
-    height: 870px;
+    width: 100%;
+    height: 800px;
     margin: 0 auto;
+    padding: 20px 0;
 }
 
 header {
     width: 100%;
-    padding: 20px;
     margin: 0 auto;
+    padding: 20px 0;
 }
 
 #navigation-bar {
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
 }
 
 #logo-link {
-    display: flex;
-    align-items: center;
-    order: 2;
-    width: 40%;
-    margin-left: 5%;
+    padding-left: 6%;
 }
 
 #logo-image {
-    max-width: 100%;
+    width: 70%;
 }
 
 #menu-container {
-    display: none; /* Hide menu on mobile version */
-    flex-direction: column;
-    align-items: flex-start;
-    order: 1;
-    width: 100%;
-}
-
-#menu-container.show {
     display: flex;
-}
-
-#hamburger-menu {
-    cursor: pointer;
-    margin-right: 5%;
-    color: #FFFFFF;
-    font-size: 2rem;
-    margin-left: 3%;
+    justify-content: space-evenly;
+    width: 40%;
+    padding-right: 8%;
 }
 
 a.menu-link {
@@ -79,14 +62,11 @@ a.menu-link {
 }
 
 #banner {
-    width: 90%;
-    height: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    margin-top: 55%;
+    margin-top: 30%;
 }
 
 #banner-heading {
@@ -132,7 +112,7 @@ a.menu-link {
 }
 
 #text-container {
-    width: 75%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -154,16 +134,16 @@ a.menu-link {
 }
 
 #what-we-do-bottom {
-    width: 100%;
+    width: 50%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 5%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 5%;;
 }
 
 .lorem-ipsum-container {
     margin-top: 5%;
-    width: 50%;
+    width: 45%;
     height: 10%;
     text-align: center;
 }
@@ -181,12 +161,13 @@ a.menu-link {
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    line-height: 1.5;
+    line-height: 1.5;;
 }
 
 #results-section {
     background-image: url(/images/background2.png);
     background-size: cover;
+    background-position: center;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -212,72 +193,69 @@ a.menu-link {
 
 #results-subheading {
     color: #FFFFFF;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
 }
 
 #results-bottom {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    gap:5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+    flex-direction: row;
+    padding-left: 20%;
 }
 
 .pentagon-container {
     position: relative;
+    padding-bottom: 2rem;
+    width: 35%;
 }
 
 .pentagon {
     position: relative;
-    margin-left: 75px;
 }
 
 .pentagon-image {
-    width: 75%;
     height: auto;
-    max-width: 100%;
+    max-width: 50%;
     display: block;
 }
 
 .text-overlay {
     position: absolute;
     top: 60%; 
-    left: 32%;
+    left: 25%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
 
 .pentagon-heading {
-    font-size: 42px;
+    font-size: 38px;
     font-weight: 700;
     color: #FFFFFF;
     margin-top: 1.25rem;
-    margin-left: 15%;
 }
 
 .pentagon-subheading {
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 400;
-    width: 100%;
     color: #FFFFFF;
     position: relative;
     top: -1rem;
-    margin-left: 15%;
 }
 
 #contact-us {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 10%;
-    width: auto;
+    padding-bottom: 10%;   
 }
 
 #form-container {
     padding-top: 8%;    
-    width:90%;
+    width: 35%;
 }
 
 #form-header {
@@ -327,26 +305,25 @@ a.menu-link {
     padding: 1rem;
     margin-top: 1rem;
     border: none;
-    width: 70%;
+    width: 60%;
 }
 
 #footer-section {
     background-image: url(/images/footer_background.png);
     width: 100%;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 #footer-container {
     display: flex;
-    flex-direction: column;
-    padding-top: 5%;
+    padding-top: 15%;
     width: 100%;
+    justify-content: space-between;
     align-items: center;
 }
 
 #footer-logo {
-    width: 70%;
-    margin-left: 20%;
+    margin-left: 8%;
 }
 
 #footer-logo-img {
@@ -356,7 +333,7 @@ a.menu-link {
 #social-icons {
     display: flex;
     gap: 1rem;
-    margin-top: 5%;
+    margin-right: 8%;
 }
 
 #copyright-text {
@@ -364,7 +341,7 @@ a.menu-link {
     font-weight: 400;
     color: rgba(255, 255, 255, 0.4);
     text-align: center;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .holberton_school-icon-ic_sound,
@@ -373,6 +350,10 @@ a.menu-link {
 .holberton_school-icon-ic_hearing {
     font-size: 90px;
     color: #FF6565;
+}
+
+#hamburger-menu {
+    display: none;
 }
 
 button:hover,

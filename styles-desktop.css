@@ -349,3 +349,13 @@ a.menu-link {
 #hamburger-menu {
     display: none;
 }
+
+button:hover,
+button:active {
+    opacity: 0.9;
+}
+
+a:hover,
+a:active {
+    color: #FF6565;
+}
